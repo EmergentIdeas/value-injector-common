@@ -1,0 +1,12 @@
+{
+  "name": "value-injector-common",
+  "version": "1.0.0",
+  "description": "",
+  "main": "value-injector-common.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
