@@ -27,8 +27,8 @@ function fetchValue(obj, path) {
 
 
 function isOrContains(target, possible) {
-	if(typeof possible == 'array') {
-		possible.includes(target)
+	if(Array.isArray(possible)) {
+		return possible.includes(target)
 	}
 	else {
 		return target == possible
